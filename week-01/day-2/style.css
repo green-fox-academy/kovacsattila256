@@ -1,0 +1,45 @@
+img {
+    padding: 0 0 0 10%;
+    max-width: 50px;
+    float: left;
+}
+nav {
+    background-color: #333333;
+    text-align: right;
+    padding: 0 10% 0 0;
+    word-spacing: 30px;
+    line-height: 50px;
+}
+
+body {
+    background-image: url("topography.png");
+    margin: 0px;
+ }
+
+h1 {
+	padding: 10% 10% 2% 10%;
+	font-family: "Courier New", Courier, monospace;
+    font-size: 300%;
+    font-weight: bold;
+}
+
+h2 {
+	padding: 0 10%;
+	color: #ff0099;
+    font-size: 25px;
+}
+
+p {
+	padding: 0 10%;
+	font-family: "Courier New", Courier, monospace;
+    font-size: 100%;
+    font-weight: bold;
+}
+h3 {
+    text-align: center;
+    font-size: 25px;
+}
+h4 {
+    padding: 0 10%;
+    font-size: 20px;
+}
