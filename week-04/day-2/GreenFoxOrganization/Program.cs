@@ -26,7 +26,7 @@ namespace GreenFoxOrganization
             people.Add(mentor);
             var sponsor = new Sponsor();
             people.Add(sponsor);
-            var elon = new Sponsor("Elon Musk", 46, "male", "SpaceX",1);
+            var elon = new Sponsor("Elon Musk", 46, "male", "SpaceX", 5);
             people.Add(elon);
 
             student.SkipDays(3);
@@ -42,7 +42,7 @@ namespace GreenFoxOrganization
 
             foreach (var person in people)
             {
-                person.Introduce();
+                Console.WriteLine(person.Introduce());
                 person.GetGoal();
             }
 
@@ -52,7 +52,7 @@ namespace GreenFoxOrganization
             awesome.AddMentor(mentor);
             awesome.AddMentor(gandhi);
             awesome.Info();
-
+            Console.ReadLine();
         }
     }
 }
