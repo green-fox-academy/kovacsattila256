@@ -1,0 +1,29 @@
+body
+{
+    background-color: lightgrey;
+    text-align: center;
+    margin: 10% 0 0 0;
+}
+
+table.signin
+{
+    margin: auto;
+    width: 600px;
+    background-color: white;
+    text-align: center;
+    line-height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table.singin th
+{
+    background:black;
+    color: white;
+    text-align: center;
+    padding: 0 0 0 20px;
+}
+
+table.singin td
+{
+    padding: 0 0 0 20px;
+}
