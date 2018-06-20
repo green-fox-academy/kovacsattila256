@@ -14,8 +14,12 @@ namespace GreenFox
             //
             // Print the percentage of the coding hours in the semester if the average
             // work hours weekly is 52
-            Console.WriteLine(17 * 5 * 6);
-            Console.WriteLine((17.0 * 5.0 * 6.0) / (17.0 * 52.0) * 100);
+            {
+                Console.WriteLine(5 * 17 * 6 + " Hours coded");
+                Console.WriteLine(5 * 6 * 100 / 52 + "% of the worktime spent coding");
+
+                Console.ReadLine();
+            }
         }
     }
 }
