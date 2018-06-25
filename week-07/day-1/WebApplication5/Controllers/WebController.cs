@@ -3,19 +3,19 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using WebApplication4.Models;
+using WebApplication5.Models;
 
-namespace WebApplication4.Controllers
+namespace WebApplication5.Controllers
 {
     [Route("web")]
     public class WebController : Controller
     {
         [Route("greeting")]
-        public IActionResult Greeting()
+        public IActionResult Greeting(string name)
         {
             Greeting greeting = new Greeting()
             {
-                content = "World"
+                Content = name
             };
 
             return View(greeting);

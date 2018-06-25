@@ -3,9 +3,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using WebApplication4.Models;
+using WebApplication5.Models;
 
-namespace WebApplication4.Controllers
+namespace WebApplication5.Controllers
 {
     [Route("api")]
     public class RESTController : Controller
@@ -20,7 +20,7 @@ namespace WebApplication4.Controllers
         {
             Greeting hiSayer = new Greeting()
             {                
-                content=name
+                Content=name
             };
             return new JsonResult(hiSayer);
         }
