@@ -20,5 +20,12 @@ namespace WebApplication5.Controllers
 
             return View(greeting);
         }
+
+        [Route("helloka")]
+        public IActionResult GreetingsInLanguages()
+        {
+            Helloka helloka = new Helloka();
+            return View(helloka);
+        }
     }
 }
