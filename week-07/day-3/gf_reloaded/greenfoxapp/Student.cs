@@ -8,7 +8,6 @@ namespace greenfoxapp
     {
         private string previousOrganization;
         private int skippedDays;
-        private int numberOfDays;
 
         public Student(string name, int age, string gender, string previousOrganization, int skippedDays) : base(name, age, gender)
         {
@@ -16,13 +15,8 @@ namespace greenfoxapp
             this.skippedDays = skippedDays;
         }
 
-        public Student() : base()
+        public Student() : this("Jane Doe", 30, "female", "The School of Life", 0)
         {
-            this.name = "Jane Doe";
-            this.age = 30;
-            this.gender = "female";
-            previousOrganization = "The School of Life";
-            skippedDays = 0;
         }
 
         public override string GetGoal()
@@ -32,7 +26,7 @@ namespace greenfoxapp
 
         public override string Introduce()
         {
-            return String.Format($"Hi, I'm {0}, a {1} year old {2} from {previousOrganization} who skipped {skippedDays} days from the course already.", Name, Age, Gender);
+            return $"Hi, I'm {Name}, a {Age} year old {Gender} from {previousOrganization} who skipped {skippedDays} days from the course already.";
         }
 
         public void SkipDays(int numberOfDays)

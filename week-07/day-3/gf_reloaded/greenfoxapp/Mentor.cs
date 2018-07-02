@@ -13,17 +13,11 @@ namespace greenfoxapp
             this.level = level;
         }
 
-        public Mentor() : base()
-        {
-            this.name = "Jane Doe";
-            this.age = 30;
-            this.gender = "female";
-            this.level = "intermediate";
-        }
+        public Mentor() : this("Jane Doe", 30, "female", "intermediate") { }
 
         public override string Introduce()
         {
-            return String.Format($"Hi, I'm {0}, a {1} year old {2} {3} mentor.", Name, Age, Gender, level);
+            return $"Hi, I'm {Name}, a {Age} year old {Gender} {level} mentor.";
         }
 
         public override string GetGoal()

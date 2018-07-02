@@ -6,9 +6,9 @@ namespace greenfoxapp
 {
     class Person
     {
-        protected string name;
-        protected int age;
-        protected string gender;
+        private string name;
+        private int age;
+        private string gender;
 
         public Person(string name, int age, string gender)
         {

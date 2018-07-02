@@ -26,7 +26,7 @@ namespace greenfoxapp
             people.Add(mentor);
             var sponsor = new Sponsor();
             people.Add(sponsor);
-            var elon = new Sponsor("Elon Musk", 46, "male", "SpaceX", 5);
+            var elon = new Sponsor("Elon Musk", 46, "male", "SpaceX");
             people.Add(elon);
 
             student.SkipDays(3);

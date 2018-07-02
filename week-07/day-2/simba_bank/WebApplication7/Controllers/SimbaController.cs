@@ -21,8 +21,8 @@ namespace WebApplication7.Controllers
         {
             List<BankAccount> accounts = new List<BankAccount>(){
             new BankAccount(){Id= 1, Name = "Toki", Balance = 3000, AnimalType = "dawg" },
-            new BankAccount(){Id= 2, Name = "Negro", Balance = 1400, AnimalType = "human" },
-            new BankAccount(){Id= 3, Name = "Cuncus", Balance = 720, AnimalType = "dawg" },
+            new BankAccount(){Id= 2, Name = "Negro", Balance = 1400, AnimalType = "cock" },
+            new BankAccount(){Id= 3, Name = "Cuncus", Balance = 720, AnimalType = "whale" },
             new BankAccount(){Id= 4, Name = "Killer", Balance = 10, AnimalType = "rabbit" }
             };
 
